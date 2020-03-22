@@ -55,7 +55,7 @@ class CounterUp extends Component {
               </TouchableOpacity>
             </View>
             <TouchableOpacity
-              style={[styles.Btn, styles.BtnGradient]}
+              style={[styles.Btn, styles.BtnBottom]}
               onPress={this.reset}>
               <Text style={styles.BtnText}>Reset</Text>
             </TouchableOpacity>
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   BtnGray: {
     backgroundColor: '#cfcfcf',
   },
-  BtnGradient: {
+  BtnBottom: {
     backgroundColor: '#ff5063',
     marginTop: 15,
   },

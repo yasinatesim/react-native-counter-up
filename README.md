@@ -1,26 +1,15 @@
-<p align="center">    
-<img src="react-counter-up.gif" width="400">    
-</p>
 
 <h2  align="center">React Native Counter Up</h2>   
       
 [![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react)
+[![npm version](https://badge.fury.io/js/react-native.svg)](https://badge.fury.io/js/react-native)
 
-This project is basic counter up app via [React Native](https://github.com/facebook/react/).
+This project is basic counter up app via [React Native](https://github.com/facebook/react-native).
 
 This project was developed for improve myself.
 
----
-
-[**Demo URL**](http://yasinatesim.react-counter-up.surge.sh)
-
----
-
 ### Features
 
-- [SCSS](https://sass-lang.com/guide) is used for coding css more effectively and easily
-- [BEMCSS](http://getbem.com/introduction/) is used from CSS naming convention
-  Development with [Airbnb](https://github.com/airbnb/javascript), which is often a reasonable approach to JavaScript.
 - Find and fix problems in your JavaScript code with [Eslint](https://eslint.org/).
 - Beautify code with [Prettier](https://prettier.io/).
 - Lint code and can prevent bad git with [Lint Staged](https://www.npmjs.com/package/lint-staged) and [Husky](https://www.npmjs.com/package/husky) tools.
@@ -30,27 +19,27 @@ This project was developed for improve myself.
 1- Clone this repository
 
 ```bash
-git clone https://github.com/yasinatesim/react-counter-up.git reactNativeCounterUp
+git clone https://github.com/yasinatesim/react-native-counter-up.git reactNativeCounterUp
 ```
 
 2- Install the project dependencies
 
 ```bash
-cd react-counter-up
+cd reactNativeCounterUp
 npm install
 ```
-
-### Development Version
-
-```bash
-npm start
-```
-
-### Production Version
+4- Develop awesome things
 
 ```bash
-npm run build
+npm run ios
 ```
+
+or
+
+```bash
+npm run android
+```
+
 
 ### Lint
 
@@ -60,4 +49,4 @@ npm run lint
 
 ## License
 
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://badges.mit-license.org)
+[![License](http://img.shields.io/:license-mit-pink.svg)](http://badges.mit-license.org)
