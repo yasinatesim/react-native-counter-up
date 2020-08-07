@@ -1,7 +1,7 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
-import CounterUp from './src/components/CounterUp';
+import CounterUp from './components/CounterUp';
 
 const App = () => {
   return (

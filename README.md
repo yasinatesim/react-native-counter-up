@@ -1,3 +1,6 @@
+<p align="center">    
+<img src="https://yasinates.com/react-native-counter-up.gif" width="400">    
+</p>
 
 <h2  align="center">React Native Counter Up</h2>   
       
@@ -30,16 +33,22 @@ npm install
 ```
 4- Develop awesome things
 
+### For IOS
+
 ```bash
 npm run ios
 ```
 
-or
+### For Android
 
 ```bash
 npm run android
 ```
+### For Web
 
+```bash
+npm run start:web
+```
 
 ### Lint
 

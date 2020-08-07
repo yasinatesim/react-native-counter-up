@@ -1,15 +1,20 @@
 {
   "name": "react-native-counter-up",
   "version": "1.0.0",
+  "main": "./index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start:web": "react-scripts start",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.5"
+    "react-dom": "^16.13.1",
+    "react-native": "0.61.5",
+    "react-native-web": "^0.13.5",
+    "react-scripts": "^3.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -35,5 +40,17 @@
   "lint-staged": {
     "*.js": "eslint --cache --fix",
     "*.{js,css}": "prettier --write"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
