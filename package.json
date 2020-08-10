@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "start:web": "react-scripts start",
-    "lint": "eslint ."
+    "build:web": "react-scripts build",
+    "lint": "eslint .",
+    "surge": "mv ./build/index.html ./build/200.html && surge --project ./build --domain yasinatesim.react-native-counter-up.surge.sh"
   },
   "dependencies": {
     "react": "16.9.0",
