@@ -9,7 +9,7 @@
     "start:web": "react-scripts start",
     "build:web": "react-scripts build",
     "lint": "eslint .",
-    "surge": "mv ./build/index.html ./build/200.html && surge --project ./build --domain yasinatesim.react-native-counter-up.surge.sh"
+    "surge": "npm run build:web && mv ./build/index.html ./build/200.html && surge --project ./build --domain yasinatesim.react-native-counter-up.surge.sh"
   },
   "dependencies": {
     "react": "16.9.0",
